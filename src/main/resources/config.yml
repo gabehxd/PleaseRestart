@@ -1,0 +1,5 @@
+#If the player count is at or below this number we will restart the server.
+playerCount: 0
+
+#The delay in seconds before the server is restarted when the player count is below the above threshold
+restartDelay: 10

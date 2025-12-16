@@ -1,0 +1,27 @@
+name: PleaseRestart
+version: '1.0.0'
+main: me.gabehxd.pleaserestart.PleaseRestart
+api-version: '1.21.4'
+load: STARTUP
+
+commands:
+  pleaserestart:
+    permission: pleaserestart.command.pleaserestart
+    aliases:
+      - plsrestart
+
+permissions:
+  pleaserestart.command.pleaserestart:
+    default: op
+    children:
+      pleaserestart.command.pleaserestart.start: true
+      pleaserestart.command.pleaserestart.stop: true
+  pleaserestart.command.pleaserestart.start:
+    default: op
+    description: "Allow starting the restart queue"
+  pleaserestart.command.pleaserestart.stop:
+    default: op
+    description: "Allow unqueuing a restart"
+
+
+
