@@ -2,6 +2,7 @@ name: PleaseRestart
 version: '1.0.0'
 main: me.gabehxd.pleaserestart.PleaseRestart
 api-version: '1.21.4'
+website: https://modrinth.com/project/J5RzohUh
 load: STARTUP
 
 commands:
