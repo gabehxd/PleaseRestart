@@ -19,7 +19,7 @@ public class PleaseRestartCommand extends BrigadierExecutor {
                                 context.getSource().sendMessage(Component.text("You do not have permission to change the pending restart!", NamedTextColor.RED));
                                 context.getSource().sendMessage(Component.text("The server is already set to restart!", NamedTextColor.RED));
                             } else {
-                                context.getSource().sendMessage(Component.text("The server will not longer restart!", NamedTextColor.GOLD));
+                                context.getSource().sendMessage(Component.text("The server will no longer restart!", NamedTextColor.GOLD));
                                 helper.setNeedsRestart(false);
                             }
                             return 1;
